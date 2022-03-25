@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
-            while (input != "exit") {
+            while (input != "exit" && input != "kraj") {
                 input = Console.ReadLine();
             }
         }

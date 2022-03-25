@@ -18,6 +18,8 @@
                         result = n1 + n2;
                     } else if (arguments[1] == "-") {
                         result = n1 - n2;
+                    } else if (arguments[1] == "*") {
+                        result = n1 * n2;
                     } else {
                         Console.WriteLine("Neispravan operator!");
                         err = true;
